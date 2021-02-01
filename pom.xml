@@ -87,7 +87,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<!-- PMD -->
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>3.2</version>
@@ -134,7 +134,7 @@
 					<ignoreIdentifiers>true</ignoreIdentifiers>
 
 				</configuration>
-			</plugin>
+			</plugin> -->
                <!-- Added for CICD Test options -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -199,7 +199,7 @@
                     <!--</plugin>-->
 
                     <!-- PMD -->
-                    <plugin>
+                    <!-- <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>3.2</version>
@@ -213,7 +213,7 @@
                             <failOnViolation>true</failOnViolation>
                             <failurePriority>2</failurePriority>
                         </configuration>
-                    </plugin>
+                    </plugin> -->
 
                     <!-- FINDBUGS -->
                     <plugin>
