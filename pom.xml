@@ -96,9 +96,9 @@
 					<aggregate>true</aggregate>
 					<format>xml</format>
 					<!-- CPD options -->
-					<minimumTokens>20</minimumTokens>
+					<!-- <minimumTokens>20</minimumTokens>
 					<!--<ignoreIdentifiers>true</ignoreIdentifiers> -->
-					<failOnViolation>true</failOnViolation>
+					<!-- <failOnViolation>true</failOnViolation>
 					<failurePriority>2</failurePriority>
 				</configuration>
 			</plugin>
@@ -114,7 +114,7 @@
 						<ruleset>/pmd-rules.xml</ruleset>
 					</rulesets>
 					<!-- CPD options -->
-					<minimumTokens>20</minimumTokens>
+					<!-- <minimumTokens>20</minimumTokens>
 					<ignoreIdentifiers>true</ignoreIdentifiers>
 				</configuration>
 			</plugin>
@@ -130,7 +130,7 @@
 						<ruleset>/pmd-rules.xml</ruleset>
 					</rulesets>
 					<!-- CPD options -->
-					<minimumTokens>20</minimumTokens>
+					<!--<minimumTokens>20</minimumTokens>
 					<ignoreIdentifiers>true</ignoreIdentifiers>
 
 				</configuration>
@@ -277,7 +277,7 @@
                                     <!--<configLocation>gol-checkstyle.xml</configLocation>-->
                                     <!--</configuration>-->
                                 </plugin>
-                                <plugin>
+                                <!--<plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-pmd-plugin</artifactId>
                                     <version>3.2</version>
@@ -289,10 +289,10 @@
                                             <ruleset>/pmd-rules.xml</ruleset>
                                         </rulesets>
                                         <!-- CPD options -->
-                                        <minimumTokens>20</minimumTokens>
+                                        <!--<minimumTokens>20</minimumTokens>
                                         <ignoreIdentifiers>true</ignoreIdentifiers>
                                     </configuration>
-                                </plugin>
+                                </plugin> -->
                                 <plugin>
                                     <groupId>org.codehaus.mojo</groupId>
                                     <artifactId>findbugs-maven-plugin</artifactId>
@@ -391,7 +391,7 @@
                             </formats>
                         </configuration>
                     </plugin>
-                    <plugin>
+                    <!-- <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>2.5</version>
@@ -403,11 +403,11 @@
                                 <ruleset>/pmd-rules.xml</ruleset>
                             </rulesets>
                             <!-- CPD options -->
-                            <minimumTokens>20</minimumTokens>
+                            <!-- <minimumTokens>20</minimumTokens>
                             <ignoreIdentifiers>true</ignoreIdentifiers>
 
                         </configuration>
-                    </plugin>
+                    </plugin> -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-checkstyle-plugin</artifactId>
